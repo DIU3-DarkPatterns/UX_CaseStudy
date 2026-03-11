@@ -27,8 +27,3 @@
 **Escenario:** Planea una salida con amigos y reserva/encarga comida para llevar desde su teléfono; prioriza rapidez y claridad en precios.
 
 ---
-
-### Notas y uso
-- Los avatares adjuntos son sugerencias generadas con randomuser.me; podéis reemplazarlos por imágenes propias.
-- Estas fichas están adaptadas al tema hamburguesa (DIU3). Si queréis, puedo generar versiones impresas (tarjeta A4) y fichas en formato PNG/PDF para la memoria.
-
