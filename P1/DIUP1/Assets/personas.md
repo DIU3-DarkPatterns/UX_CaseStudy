@@ -114,11 +114,3 @@ Planea una salida con amigos: busca un local o pedido para llevar, compara tiemp
 - Twitter / TikTok (para tendencias y descubrimientos)
 
 ---
-
-**Avatares sugeridos (randomuser.me)**
-- María: https://randomuser.me/api/portraits/women/68.jpg
-- Javier: https://randomuser.me/api/portraits/men/12.jpg
-
-Si quieres, puedo:
-- Generar tarjetas visuales (PNG/PDF) con estas fichas para incluir en la memoria.
-- Ajustar el tono o los campos a las plantillas específicas del curso.

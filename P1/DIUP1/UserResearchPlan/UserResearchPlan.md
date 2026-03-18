@@ -1,4 +1,4 @@
-# P1 DIU — User Research Plan (convertido desde PDF)
+# P1 DIU — User Research Plan
 
 ## 1. User Research Plan
 
@@ -26,8 +26,8 @@ Un informe de usabilidad (usability report) que identifique los aspectos a mejor
 ---
 
 ## 2. Competitor analysis
-[CompetitorAnalisisFigma_pdf](Assets/Competitor_Analysis.pdf)
-![CompetitorAnalisisFigma](Assets/Competitor_Analysis.png)
+[CompetitorAnalisisFigma_pdf](../CompetitiveAnalysis/Competitor_Analysis.pdf)
+![CompetitorAnalisisFigma](../CompetitiveAnalysis/Competitor_Analysis.png)
 
 **Competidores seleccionados:**
 
