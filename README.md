@@ -18,31 +18,21 @@ Actualizado: 14/01/2026
 ![Método UX](img/caseStudy.png) 
 -----
 
->>> Este documento es el esqueleto del Case Study que explica el proceso de desarrollo de las 5 prácticas de DIU. Aparte de subir cada entrega a PRADO, se debe actualizar y dar formato de informe final a este documento online. Elimine este tipo de texto / comentarios desde la práctica 1 conforme proceda a cada paso
+Grupo: DIU3_DarkPatterns  
+Curso: 2025/26  
+Repositorio del proyecto: [DIU3-DarkPatterns/UX_CaseStudy](https://github.com/DIU3-DarkPatterns/UX_CaseStudy)
 
+Nombre del Proyecto: DarkPatterns
 
->>> Hay que Publicar de forma incremental "my Case Study" en Github... Es el momento de dejar este documento para que sea evaluado y calificado como parte de la práctica
->>> Documente bien la cabecera y asegurese que ha resumido los pasos realizados para el diseño de su producto
+Descripción: Case Study de diseño UX/UI orientado a la evaluación de usabilidad y análisis de experiencia de usuario en el contexto de restauración digital.
 
-Grupo: DIUx_AABB.  Curso: 2025/26 
+Logotipo:
 
-Nombre del Proyecto: 
-
->>> Decida el nombre corto de su propuesta en la práctica 2 
-
-Descripción: 
-
->>> Describa la idea de su producto en la práctica 2 
-
-Logotipo: 
-
->>> Si diseña un logotipo para su producto en la práctica 3 pongalo aqui, a un tamaño adecuado. Si diseña un slogan añadalo aquí
+![Logo DarkPatterns](InfoDelGrupo/Logo/Logo_preliminar.png)
 
 Miembros y nombre del equipo:
- * :bust_in_silhouette:  AA     :octocat:     
- * :bust_in_silhouette:  BB     :octocat:
-
->>> Los equipos son de 2 personas. Identifícaros con el nombre del Grupo y los enlaces a los perfiles de GitHub de cada integrante
+ * :bust_in_silhouette: Roberto González Lugo - [@roberlks](https://github.com/roberlks)
+ * :bust_in_silhouette: Antonio Alcalá-Galiano Sánchez - [@aags25](https://github.com/aags25)
 
 ----- 
 
@@ -58,45 +48,87 @@ Miembros y nombre del equipo:
 
 ## Paso 1. UX User & Desk Research & Analisis 
 
->>> Cualquier título puede ser adaptado. Recuerda borrar estos comentarios del template en tu documento
+Caso de estudio trabajado en P1: **DIUP1_DarkPatterns (Goiko)**.
+- [Readme especifico de la P1](P1/DIUP1/README.md)
 
 
-### 1.a User Reseach Plan
-![Método UX](img/Competitive.png) 
+### 1.a User Research Plan
+![Método UX](img/Competitive.png)
 -----
 
->>> Describe el plan en tu User Research (cómo se plantea la selección de usuarios). Borra esta línea cuando lo tengas.  
+Se estableció un plan de investigación centrado en la usabilidad de Goiko, combinando técnicas cualitativas (entrevistas) y cuantitativas (pruebas de tareas cronometradas), con foco en tres acciones clave: reserva, consulta de ubicaciones y acceso a información de precio/ingredientes/alérgenos.
+
+Documento principal:
+- [User Research Plan completo](P1/DIUP1/UserResearchPlan/UserResearchPlan.md)
 
 
 ### 1.b Competitive Analysis
-![Método UX](img/Competitive.png) 
+![Método UX](img/Competitive.png)
 -----
 
->>> Describe brevemente características de las aplicaciones que tiene asignadas tu grupo. Decidete por una y explica por qué se ha seleccionado. Borra esta línea cuando lo tengas. 
+Se comparó Goiko con dos competidores directos del mismo segmento:
+- Sancho Casual Burger
+- Capital Burger
+
+Conclusiones principales del análisis:
+- Goiko destaca por claridad y orden en la presentación de información.
+- Existe una brecha relevante en visibilidad de precios frente a la competencia.
+- Se detectan oportunidades en ambientación visual y jerarquía comercial de contenido.
+
+Documentos:
+- [Competitive Analysis (análisis argumentado)](P1/DIUP1/CompetitiveAnalysis/competitive_analysis_goiko.md)
+- [Competitive Analysis (tabla comparativa)](P1/DIUP1/CompetitiveAnalysis/Competitor_Analysis.pdf)
 
 
 ### 1.c Personas
-![Método UX](img/Persona.png) 
+![Método UX](img/Persona.png)
 -----
 
->>> Junto con la captura de pantalla de la ficha de la persona, haz una breve descripción de la misma. Recuerda que son dos. Los recursos de imagen deberán estar dentro de la carpeta P1/ Cuando termines, borra esta línea.  
+Se definieron dos perfiles representativos para evaluar necesidades y fricciones de uso:
+- **María García**: perfil planificador, sensible a información de alérgenos y precios.
+- **Javier López**: perfil dinámico, orientado a rapidez en pedido/reserva y experiencia móvil fluida.
+
+Documentos:
+- [Persona de María García + Journey Map](P1/DIUP1/Personas%20%26%20User%20Journey%20Maps/Persona%20%26%20User%20Journey%20Map_MariaGarcia%28goiko%29.pdf)
+- [Persona de Javier López + Journey Map](P1/DIUP1/Personas%20%26%20User%20Journey%20Maps/Persona%20%26%20User%20Journey%20Map_JavierLopez.pdf)
 
 
 ### 1.d User Journey Map
-![Método UX](img/JourneyMap.png) 
+![Método UX](img/JourneyMap.png)
 ----
 
->>> Describe el porqué de las dos experiencias de usuario contadas en el journey map. Por ejemplo, reflexiona si te parece que son habituales. Enlaza con los recursos journey que están en la carpeta P1/. Borra esta linea del template cuando termines.  
+Los journey maps modelan dos objetivos de uso diferentes:
+- Toma de decisión informada previa a reserva (usuario planificador).
+- Ejecución rápida de pedido/reserva en contexto social y móvil (usuario ágil).
+
+Ambos recorridos permiten detectar puntos de fricción en información crítica, tiempos de decisión y pasos operativos.
+
+Documentos:
+- [Journey de María García](P1/DIUP1/Personas%20%26%20User%20Journey%20Maps/Persona%20%26%20User%20Journey%20Map_MariaGarcia%28goiko%29.pdf)
+- [Journey de Javier López](P1/DIUP1/Personas%20%26%20User%20Journey%20Maps/Persona%20%26%20User%20Journey%20Map_JavierLopez.pdf)
 
 
 ### 1.e Usability Review
-![Método UX](img/usabilityReview.png) 
+![Método UX](img/usabilityReview.png)
 ----
 
->>>  El objetivo es revisar la usabilidad del competidor seleccionado. Usamos un checklist de verificación. Tras usarlo, subelo a la carpeta P1/ Ofrece aquí un parrafo para:
->>> - Enlace al documento:  (xls/pdf) 
->>> - URL y Valoración numérica obtenida: 
->>> - Comentario sobre la revisión:  (puntos fuertes y débiles detectados)
+Se aplicó una revisión heurística estructurada (UX for the Masses) para valorar navegación, claridad, contenidos y soporte de tareas principales.
+
+- **URL evaluada**: https://www.goiko.com/es/
+- **Valoración obtenida**: **70/100 (Good)**
+- **Fortalezas**: claridad visual y estructura base de navegación.
+- **Debilidades**: visibilidad de precios/alérgenos, fluidez móvil y simplificación de acciones de conversión.
+
+Documento:
+- [Usability Review Report](P1/DIUP1/UsabilityReview/Usability-review.pdf)
+
+
+### 1.f Briefing
+
+Como cierre de P1 se elaboró un briefing ejecutivo que sintetiza hallazgos, prioridades y líneas de mejora para la siguiente fase de diseño.
+
+Documento:
+- [Briefing ejecutivo](P1/DIUP1/Briefing/briefing.md)
 
 <br>
 
