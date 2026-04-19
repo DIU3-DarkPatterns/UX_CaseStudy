@@ -134,56 +134,74 @@ Documento:
 
 ## Paso 2. UX Design  
 
->>> Cualquier título puede ser adaptado. Recuerda borrar estos comentarios del template en tu documento
+- [Readme específico y completo de la P2](P2/README.md)
 
-### 2.a Reframing / IDEACION: Feedback Capture Grid / EMpathy map 
+### 2.a Reframing / IDEACION: Empathy Map 
 ![Método UX](img/feedback-capture-grid.png) 
 ----
 
->>> Comenta con un diagrama los aspectos más destacados a modo de conclusion de la práctica anterior. De qué carece la competencia?? Tu diagrama puede ser una figura subida a la carpeta P2/
+Para abordar el diseño y entender mejor las necesidades latentes identificadas en la Práctica 1 (como la falta de visibilidad en precios y alérgenos), elaboramos un Mapa de Empatía. Esta herramienta nos permitió identificar los principales *pains* (frustraciones) y *gains* (alegrías/expectativas) de nuestro usuario objetivo cuando interactúa con un servicio de restaurante online.
 
+**Problema e Hipótesis:** La competencia carece de una configuración transparente de productos y procesos ágiles de reserva. Nuestra hipótesis es que simplificando los flujos de "Crear mi propia hamburguesa", manteniendo visibilidad total de ingredientes y precios en tiempo real, aumentará significativamente la conversión y la satisfacción del usuario de perfil planificador.
 
- Interesante | Críticas     
-| ------------- | -------
-  Preguntas | Nuevas ideas
-  
-    
->>> Explica el Problema y plantea una hipótesis. Es decir, explica aquí qué 
->>> se plantea como "propuesta de valor" para un nuevo diseño de aplicación propio
+![Mapa de Empatía](P2/Empathy%20Customer%20Map%20[DIU23]%20(Copia).png)
 
 
 ### 2.b ScopeCanvas
 ![Método UX](img/ScopeCanvas.png)
 ----
 
->>> Propuesta de valor, pero ahora en vez de un texto es un ScopeCanvas que has subido a P2/ y enlazado desde aqui. Tambien vale una imagen miniatura del recurso.
->>> No olvides que tu propuesta ya tiene un nombre corto y puedes actualizar la cabecera de este archivo
+Hemos aterrizado nuestra propuesta de valor "DarkPatterns" a través de un Scope Canvas, delimitando claramente nuestros objetivos (transparencia y agilidad), las necesidades de los usuarios y las funcionalidades o *features* clave requeridas (personalizador dinámico, reserva simplificada en pocos pasos, etiquetado de alérgenos).
+
+![Scope Canvas](P2/Scope%20Canvas%20(Community)%20(Copy)%20(Copia).png)
 
 
-
-### 2.b User Flow (task) analysis 
+### 2.c User Flow (Task Analysis)
 ![Método UX](img/Sitemap.png) 
 -----
 
->>> Definir "User Map" y "Task Flow" ... enlazar desde P2/ y describir brevemente
+Hemos analizado y modelado los flujos de tareas más críticos para asegurar que la navegación sea intuitiva y libre de fricciones. Se definieron tres *User Flows* principales:
+
+1. **Crear Hamburguesa:** Flujo *core* para personalizar un producto desde cero y añadirlo al pedido. [Ver Flujo](P2/CrearHamburguesa.png)
+2. **Reservar Mesa:** Flujo secuencial y ágil para asegurar mesa sin dudas ni distracciones. [Ver Flujo](P2/ReservarMesa.png)
+3. **Acceder a Cuenta:** Flujo clásico de registro/login de usuario. [Ver Flujo](P2/AccederaCuenta.png)
 
 
-### 2.c IA: Sitemap + Labelling 
+### 2.d IA: Sitemap + Labelling 
 ![Método UX](img/labelling.png) 
 ----
 
->>> Identificar términos para diálogo con usuario (evita el spanglish) y la arquitectura de la información. Es muy apropiado un diagrama tipo sitemap y una tabla que se ampliaría para llevar asociado la columna iconos (tanto para la web como para una app). 
+Definimos la estructura de la aplicación y la nomenclatura precisa con el objetivo de hablar el idioma del usuario y organizar la información lógicamente.
 
-Término | Significado     
-| ------------- | -------
-  Login  | acceder a plataforma
+**Sitemap:**
+![Sitemap](P2/Sitemap.png)
+
+**Labelling:**
+La tabla detallando el significado de cada término en la navegación ha sido documentada en el siguiente archivo:
+- [Documento de Labelling (PDF)](P2/Labelling.pdf)
 
 
-### 2.d Wireframes
+### 2.e Wireframes (Lo-Fi)
 ![Método UX](img/Wireframes.png) 
 -----
 
->>> Plantear el diseño del layout para Web/movil (organización y simulación). Describa la herramienta usada 
+Para validar los flujos anteriores, diseñamos wireframes de baja fidelidad (Lo-Fi) para entorno Web Desktop (1440px), utilizando una retícula estructurada de 12 columnas. 
+
+El objetivo ha sido definir la jerarquía visual de los componentes clave (precios interactivos, personalizador, filtros por alérgenos). Se diseñaron estas pantallas principales:
+
+- **Home:** 
+![Landing.png](P2/Wireframes/Landing.png)
+
+- **Carta de Productos:** 
+![Carta.png](P2/Wireframes/Carta.png)
+
+- **Personalizador de Hamburguesa (Pantalla Clave):** 
+![Customizar.png](P2/Wireframes/Customizar.png)
+
+- **Proceso de Reservas:** 
+![Reservar.png](P2/Wireframes/Reservar.png)
+
+Se pueden visualizar directamente las pantallas en el [documento interno de la P2](P2/README.md).
 
 <br>
 
