@@ -60,3 +60,6 @@ Nos hemos basado en nuestro Mapa de Empatía (Práctica 2) para enfocar las deci
 * *"Odio ir a pagar y ver que el precio ha subido mágicamente un 30% por cargos extra preseleccionados".*
 
 ---
+
+# Landing page
+**Enlace al Landing Page en Figma:** [Ver Landing Page](https://trade-editor-25618488.figma.site)
