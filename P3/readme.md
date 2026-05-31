@@ -3,8 +3,8 @@
 - Moodboard (diseño visual + logotipo) ✅
 - Landing Page ✅
 - Design System (Atomic Design) ✅
-- Mockup: LAYOUT HI-FI *(en progreso)*
-- Publicación del Case Study
+- Mockup: LAYOUT HI-FI ✅
+- Publicación del Case Study ✅
 
 ______________________________________________________
 
@@ -115,10 +115,58 @@ Composiciones de átomos para patrones de interfaz recurrentes:
 
 # Layout Hi-Fi
 
-*(En progreso — se enlazará el prototipo interactivo de Figma al completarse)*
+El Layout Hi-Fi recoge las cuatro pantallas principales de **ClearBurger** en alta fidelidad, aplicando el Design System completo: componentes Navbar y Footer, tarjetas de producto, barra de búsqueda, list items con etiquetas de alérgenos y formularios. Diseñado en formato desktop (1440px) con dark mode y jerarquía visual semántica (header → contenido → footer) en todas las pantallas.
+
+**Prototipo interactivo publicado:** [Ver prototipo](https://dazzle-pages-38852614.figma.site)
+
+**Archivo Figma (estático):** [Ver diseño en Figma](https://www.figma.com/proto/hSSaOkXlwwd5DqxbSwdTj9/Design-system?node-id=106-1123&t=3GDIyxNABywiV3ie-1)
+
+---
+
+### Home
+
+Pantalla de bienvenida con hero section, sección de hamburguesas destacadas y llamada a la acción principal.
+
+![Home](ExportsFigma/Layout-Home.png)
+
+[Descargar PDF](ExportsFigma/Layout-Home.pdf)
+
+---
+
+### Carta
+
+Listado completo de productos con barra de búsqueda, filtros por alérgenos y grid de cards de producto.
+
+![Carta](ExportsFigma/Layout-Carta.png)
+
+[Descargar PDF](ExportsFigma/Layout-Carta.pdf)
+
+---
+
+### Customizar hamburguesa
+
+Pantalla de personalización con selector de ingredientes (list items con badges de alérgenos) y resumen del pedido en tiempo real con precio transparente.
+
+![Customizar](ExportsFigma/Layout-Customizar.png)
+
+[Descargar PDF](ExportsFigma/Layout-Customizar.pdf)
+
+---
+
+### Reservar mesa
+
+Formulario de reserva simplificado en pocos pasos, sin información preseleccionada ni cargos ocultos.
+
+![Reservar](ExportsFigma/Layout-Reservar.png)
+
+[Descargar PDF](ExportsFigma/Layout-Reservar.pdf)
 
 ---
 
 ## Conclusiones
 
-*(Pendiente de completar al cierre de la práctica)*
+Esta práctica ha supuesto el salto del diseño estructural (wireframes Lo-Fi de P2) al prototipo visual completo, y la experiencia ha sido muy positiva en conjunto. Trabajar con un Design System propio desde cero obliga a tomar decisiones de consistencia desde el principio —colores, espaciado, tipografía— que luego se agradecen enormemente al componer las pantallas: los componentes encajan, los espacios se respetan y el resultado tiene coherencia visual real.
+
+El mayor punto de aprendizaje ha sido dominar Figma a un nivel más profundo del habitual: variantes, Autolayout, constraints, modo Prototype... son funcionalidades que no se usan en el día a día y que requieren cierta curva de aprendizaje. En este sentido, el apoyo de herramientas de IA conversacional (ChatGPT y Claude) para resolver dudas técnicas muy concretas sobre Figma ha sido fundamental para no bloquearnos y mantener el ritmo de trabajo.
+
+Como área de mejora, con más tiempo habríamos refinado las transiciones del prototipo y añadido más estados de interacción en los componentes (hover, pressed). Aun así, el resultado refleja fielmente la propuesta de valor de ClearBurger: una interfaz honesta, limpia y sin patrones oscuros.

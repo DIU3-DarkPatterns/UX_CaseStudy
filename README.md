@@ -261,12 +261,35 @@ Design System ligero construido con metodología **Atomic Design** en Figma. Gen
 ![Método UX](img/mockup.png)
 ----
 
-*(En progreso — prototipo interactivo en Figma con las pantallas principales: Home, Carta, Customizar hamburguesa y Reservar mesa, conectadas con transiciones simuladas. Se enlazará al completarse.)*
+Prototipo Hi-Fi en Figma de las cuatro pantallas principales de ClearBurger, aplicando el Design System completo (componentes, tipografía, colores y espaciado). Diseño desktop 1440px en dark mode con jerarquía visual semántica (header → contenido → footer) en todas las pantallas.
+
+**Prototipo interactivo publicado:** [Ver prototipo](https://dazzle-pages-38852614.figma.site)
+
+**Archivo Figma:** [Ver diseño en Figma](https://www.figma.com/proto/hSSaOkXlwwd5DqxbSwdTj9/Design-system?node-id=106-1123&t=3GDIyxNABywiV3ie-1)
+
+| Pantalla | Descripción |
+|----------|-------------|
+| Home | Bienvenida con hero section y hamburguesas destacadas |
+| Carta | Listado de productos con búsqueda y filtros de alérgenos |
+| Customizar | Personalizador de hamburguesa con precio en tiempo real |
+| Reservar | Formulario de reserva simplificado sin cargos ocultos |
+
+![Home](P3/ExportsFigma/Layout-Home.png)
+
+![Carta](P3/ExportsFigma/Layout-Carta.png)
+
+![Customizar](P3/ExportsFigma/Layout-Customizar.png)
+
+![Reservar](P3/ExportsFigma/Layout-Reservar.png)
 
 
 ### 3.e Briefing
 
-*(Pendiente — descripción del proceso de diseño, herramientas IA utilizadas y su efectividad, conclusiones del equipo sobre la práctica.)*
+Todo el proceso de diseño de esta práctica se ha llevado a cabo íntegramente en **Figma**, aprovechando tanto sus funcionalidades nativas como el ecosistema de plugins de la comunidad. Para la generación de las Foundations del Design System se utilizó el plugin **Foundation Studio**, que permitió automatizar la creación de rampas de color semánticas, escalas tipográficas modulares y el sistema de espaciado basado en 8px, estableciendo una base sólida y coherente desde la que construir el resto de componentes. A partir de ahí, el Design System se desarrolló manualmente aplicando variantes, Autolayout y propiedades de componente para garantizar la consistencia y reutilización en todo el prototipo.
+
+El uso de herramientas de **IA conversacional** (ChatGPT y Claude) resultó especialmente valioso a lo largo de toda la práctica como apoyo técnico en tiempo real. Al trabajar con una herramienta tan amplia como Figma, surgen constantemente dudas muy específicas: cómo estructurar correctamente las variantes de un componente, cómo configurar el Autolayout para que se comporte de forma responsive, qué diferencia hay entre constraints y resizing, o cómo conectar pantallas en el modo Prototype. Consultar estas dudas directamente a una IA en lugar de buscar entre documentación o tutoriales redujo enormemente los tiempos de bloqueo y permitió mantener el flujo de trabajo sin interrupciones.
+
+Como conclusión, la combinación de Figma con plugins especializados e IA como asistente técnico ha demostrado ser un flujo de trabajo muy eficiente para el prototipado Hi-Fi. La IA no reemplaza el criterio de diseño, sino que elimina la fricción técnica, permitiendo centrarse en las decisiones de UX que realmente importan.
 
 
 <br>
