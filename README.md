@@ -30,6 +30,8 @@ Logotipo:
 
 ![Logo DarkPatterns](InfoDelGrupo/Logo/Logo_preliminar.png)
 
+Nuestra WEB: [clearburger-diu3.surge.sh](https://clearburger-diu3.surge.sh)
+
 Miembros y nombre del equipo:
  * :bust_in_silhouette: Roberto González Lugo - [@roberlks](https://github.com/roberlks)
  * :bust_in_silhouette: Antonio Alcalá-Galiano Sánchez - [@aags25](https://github.com/aags25)
@@ -370,14 +372,25 @@ Para más información, consultar aquí sobre la [metodología SUS](https://cui.
 ![Método UX](img/usabilityReview.png) 
 ----
 
->>> Breve descripción de esta tarea. Las evidencias de este paso quedan subidas a P5/
+La aplicación web de ClearBurger se ha desarrollado con **React 19 + Vite** como entorno de producción, aplicando **Tailwind CSS v4** como motor de estilos y **shadcn/ui** (preset Nova con iconos Lucide) como base de componentes accesibles. La arquitectura sigue la metodología **Atomic Design** del Design System de la P3, estructurando los elementos en tres niveles: átomos (`Button`, `Tag`, `Input`), moléculas (`SearchBar`, `IngredientButton`) y organismos (`Navbar`, `Footer`).
+
+El diseño implementado respeta fielmente el sistema visual definido en Figma: paleta dark mode con fondo `#1A1A1A`, superficie `#222222`, rojo CTA `#D92525` y tipografía Montserrat/Inter. La navbar flotante con forma de píldora, el footer con su grid de enlaces y los cuatro flujos principales (Home, Carta, Customizar y Reservar) reproducen el prototipo Hi-Fi con interactividad completa: búsqueda y filtrado por categoría en la Carta, personalizador con cálculo de precio en tiempo real en Customizar, y formulario de reserva con validación inline de campos en Reservar.
+
+**App publicada en producción:** [clearburger-diu3.surge.sh](https://clearburger-diu3.surge.sh) — Las evidencias quedan en [P4/clearburger/](P4/clearburger/).
 
 
 ### 5.b Documentación con Storybook
 ![Método UX](img/usabilityReview.png)
 ----
 
->>> Breve descripción de esta tarea. Las evidencias de este paso quedan subidas a P5/
+La librería de componentes está documentada con **Storybook** (v10, integración React + Vite). Se han escrito stories para los cinco componentes propios del Design System, organizados en las mismas categorías que el Atomic Design de Figma:
+
+- **Atoms:** `Button` (primary / secondary / ghost / disabled), `Tag` (default · warning · neutral), `Input` (default · focus · error)
+- **Molecules:** `SearchBar` (default · activo · error), `IngredientButton` (disponible · seleccionado · agotado)
+
+Cada story usa `autodocs` para generar documentación interactiva con tabla de props y controles en tiempo real. El entorno de Storybook aplica el mismo dark mode y CSS del sistema de diseño, garantizando fidelidad visual entre la documentación y la aplicación.
+
+Para lanzar: `npm run storybook` (puerto 6006). El build estático se genera con `npm run build-storybook`.
 
 
 <br>
