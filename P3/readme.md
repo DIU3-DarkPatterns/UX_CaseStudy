@@ -119,7 +119,7 @@ El Layout Hi-Fi recoge las cuatro pantallas principales de **ClearBurger** en al
 
 **Prototipo interactivo publicado:** [Ver prototipo](https://dazzle-pages-38852614.figma.site)
 
-**Archivo Figma (estático):** [Ver diseño en Figma](https://www.figma.com/proto/hSSaOkXlwwd5DqxbSwdTj9/Design-system?node-id=106-1123&t=3GDIyxNABywiV3ie-1)
+**Archivo Figma (estático):** [Ver diseño en Figma](https://www.figma.com/design/hSSaOkXlwwd5DqxbSwdTj9/Design-system?node-id=69-17&t=3GDIyxNABywiV3ie-1)
 
 ---
 
