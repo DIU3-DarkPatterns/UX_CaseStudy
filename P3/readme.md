@@ -1,14 +1,11 @@
 # DIU - Practica 3, entregables
 
-- Moodboard (diseño visual + logotipo)   
-- Landing Page
-- Mockup: LAYOUT HI-FI
+- Moodboard (diseño visual + logotipo) ✅
+- Landing Page ✅
+- Design System (Atomic Design) ✅
+- Mockup: LAYOUT HI-FI *(en progreso)*
 - Publicación del Case Study
 
-## Conclusiones
-
->>>> Este fichero se debe editar para que cada evidencia quede enlazada con el recurso subido a la carpeta de la practica. Se pide más detalle técnico en las descripciones de lo que sería el README principal del repositorio y que corresponde a la descripcion del Case Study.
->>>> Termine con la seccion de Conclusiones para aportar una valoración final del equipo sobre la propia realización de la práctica
 ______________________________________________________
 
 # Moodboard
@@ -34,7 +31,7 @@ Nuestro logotipo se basa en un estilo urbano e industrial, priorizando en todo m
 ### 3. UX Writing (Voz y Tono)
 **Eslogan principal:** *"El sabor real, sin letras pequeñas."*
 
-Para los textos de la interfaz hemos optado por ser directos, honestos y cercanos, evitando el lenguaje engañoso o la sensación de urgencia artificial (como los típicos mensajes de "¡Reserva ya, solo quedan 2 mesas!"). 
+Para los textos de la interfaz hemos optado por ser directos, honestos y cercanos, evitando el lenguaje engañoso o la sensación de urgencia artificial (como los típicos mensajes de "¡Reserva ya, solo quedan 2 mesas!").
 *   **Voz:** Profesional pero urbana y moderna.
 *   **Tono:** Transparente, claro y muy respetuoso con el tiempo del usuario.
 *   En la práctica, esto se traduce en botones equitativos (la opción de "Cancelar" tiene la misma visibilidad que la de aceptar) y mensajes francos como "Añade ingredientes (desde +0.50€)".
@@ -61,5 +58,67 @@ Nos hemos basado en nuestro Mapa de Empatía (Práctica 2) para enfocar las deci
 
 ---
 
-# Landing page
-**Enlace al Landing Page en Figma:** [Ver Landing Page](https://trade-editor-25618488.figma.site)
+# Landing Page
+
+**Enlace al Landing Page:** [Ver Landing Page](https://trade-editor-25618488.figma.site)
+
+La Landing Page fue generada mediante **Figma Make** (herramienta de Vibe Coding/Design de Figma), aplicando el lenguaje visual definido en el Moodboard: paleta dark mode, tipografía Montserrat/Inter y tono de voz transparente y directo. El proceso consistió en definir los prompts con el objetivo, el estilo y el contenido clave (CTA principal, beneficios, headline), iterando sobre el resultado para ajustar la jerarquía visual y los colores de marca.
+
+---
+
+# Design System
+
+**Enlace al Design System en Figma:** [Ver Design System completo](https://www.figma.com/design/hSSaOkXlwwd5DqxbSwdTj9/Design-system?node-id=0-1&t=3GDIyxNABywiV3ie-1)
+
+El Design System de ClearBurger está construido siguiendo la metodología **Atomic Design**, partiendo de los tokens visuales base (Foundations) hasta llegar a los organismos completos reutilizables en el Layout Hi-Fi.
+
+## Foundations
+
+Sistema visual base generado con el plugin **Foundation Studio** para Figma. Incluye rampas de color semánticas (Primary, Secondary, Neutrals, Error, Success, Warning), escala tipográfica modular (H1–H5, Paragraph, Small), sistema de sombras, radios de esquina y espaciado basado en rejilla de 8px.
+
+**Dark Mode:**
+
+![Design System Dark](ExportsFigma/DesignSystem-Dark.png)
+
+**Light Mode:**
+
+![Design System Light](ExportsFigma/DesignSystem-Light.png)
+
+## Átomos
+
+Componentes mínimos e indivisibles con variantes Figma y Autolayout:
+
+- **Button**: 4 variantes (Primary / Secondary / Disabled / Ghost). Padding 12px vertical / 24px horizontal.
+- **Input**: 3 estados (Default / Focus / Error). Padding 12px vertical / 16px horizontal.
+- **Badge / Etiqueta de alérgeno**: 3 variantes (Default / Warning / Positive). Padding 4px vertical / 10px horizontal.
+
+![Átomos](ExportsFigma/DesignSystem-Atoms.png)
+
+## Moléculas
+
+Composiciones de átomos para patrones de interfaz recurrentes:
+
+- **Barra de búsqueda**: 3 estados (Default / Focus / Filled)
+- **List item**: 5 variantes simples + 5 variantes con badge de alérgeno
+- **Card de producto**: 3 variantes (imagen + nombre + precio + botón Pedir)
+
+![Moléculas](ExportsFigma/DesignSystem-Moleculas.png)
+
+## Organismos
+
+- **Navbar**: Logo ClearBurger + navegación principal (Reservar, Sobre nosotros, Carta, Hacer pedido, ¡Crea tu hamburguesa!) + avatar de usuario
+- **Footer**: Logo + navegación secundaria + enlaces legales + iconos de redes sociales
+
+![Organismos](ExportsFigma/DesignSystem-Organismos.png)
+
+---
+
+# Layout Hi-Fi
+
+*(En progreso — se enlazará el prototipo interactivo de Figma al completarse)*
+
+---
+
+## Conclusiones
+
+*(Pendiente de completar al cierre de la práctica)*

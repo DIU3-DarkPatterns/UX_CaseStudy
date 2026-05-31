@@ -207,38 +207,66 @@ Se pueden visualizar directamente las pantallas en el [documento interno de la P
 
 ## Paso 3. Mi UX-Case Study (diseño)
 
->>> Cualquier título puede ser adaptado. Recuerda borrar estos comentarios del template en tu documento
+- [Readme específico y completo de la P3](P3/readme.md)
 
 
 ### 3.a Moodboard
 ![Método UX](img/moodboard.png)
 -----
 
->>> Diseño visual con una guía de estilos visual (moodboard) 
->>> Incluir Logotipo. Todos los recursos estarán subidos a la carpeta P3/
->>> Explique aqui la/s herramienta/s utilizada/s y el por qué de la resolución empleada. Reflexione ¿Se puede usar esta imagen como cabecera de Instagram, por ejemplo, o se necesitan otras?
+Diseño visual completo de la identidad de **ClearBurger**, realizado en Figma. El Moodboard define el lenguaje visual del proyecto: paleta dark mode (Rojo Carmín #D92525, Negro Carbón #1A1A1A, Blanco Hueso #F5F5F5), tipografía Montserrat Bold (headings) + Inter (body), estética urbana/industrial con fotografías de producto sobre fondos oscuros.
+
+El logotipo es un imagotipo de trazos gruesos, combinando rojo y negro para transmitir energía y modernidad. El formato del Moodboard está optimizado para pantalla y presentación; para uso en redes sociales como Instagram requeriría adaptación a formato cuadrado (1:1) o vertical (4:5).
+
+![Moodboard ClearBurger](P3/Moodboard-P3_DarkPatterns.png)
+
+Documentos:
+- [Ver Moodboard en Figma](https://www.figma.com/design/eV5CyeyMHPOjrAd9HuXekq/Untitled?node-id=0-1&t=M9fE7HbpVGV4a53N-1)
+- [Descargar Moodboard PDF](P3/Moodboard-P3_DarkPatterns.pdf)
 
 
 ### 3.b Landing Page
-![Método UX](img/landing-page.png) 
+![Método UX](img/landing-page.png)
 ----
 
->>> Plantear el Landing Page del producto. Aplica estilos definidos en el moodboard
+Landing Page de **ClearBurger** generada mediante **Figma Make** (Vibe Coding/Design), aplicando el sistema visual del Moodboard. El proceso de generación se basó en prompts iterativos especificando el objetivo (restaurante sin dark patterns), el estilo visual (dark mode, rojo/negro) y la estructura de contenido (headline + beneficios + CTA). La página destaca los tres valores diferenciales: precios transparentes, alérgenos siempre visibles y sin urgencia artificial.
+
+- [Ver Landing Page publicada](https://trade-editor-25618488.figma.site)
 
 
-### 3.c Guidelines
-![Método UX](img/guidelines.png) 
+### 3.c Lenguaje Visual — Design System
+![Método UX](img/guidelines.png)
 ----
 
->>> Estudio de Guidelines y explicación de los Patrones IU a usar 
->>> Es decir, tras documentarse, muestre las deciones tomadas sobre Patrones IU a usar para la fase siguiente de prototipado. 
+Design System ligero construido con metodología **Atomic Design** en Figma. Generado con el plugin **Foundation Studio** para los tokens base y desarrollado manualmente con variantes y Autolayout para los componentes.
+
+**Decisiones de diseño clave:**
+- Sistema de color semántico con tokens nombrados (Primary, Neutrals, Feedback) para integración futura con Tailwind CSS.
+- Escala tipográfica modular basada en 8px: Montserrat para H1–H5, Inter para Paragraph y Small.
+- Componentes con variantes Figma: Button (4), Input (3), Badge (3), SearchBar (3), ListItem (10), Card (3), Navbar y Footer.
+- Autolayout en todos los componentes para comportamiento responsive.
+
+![Design System Dark](P3/ExportsFigma/DesignSystem-Dark.png)
+
+![Átomos](P3/ExportsFigma/DesignSystem-Atoms.png)
+
+![Moléculas](P3/ExportsFigma/DesignSystem-Moleculas.png)
+
+![Organismos](P3/ExportsFigma/DesignSystem-Organismos.png)
+
+- [Ver Design System en Figma](https://www.figma.com/design/hSSaOkXlwwd5DqxbSwdTj9/Design-system?node-id=0-1&t=3GDIyxNABywiV3ie-1)
 
 
-### 3.d Mockup
-![Método UX](img/mockup.png) 
+### 3.d Layout Hi-Fi
+![Método UX](img/mockup.png)
 ----
 
->>> Consiste en tener un Layout en acción. Un Mockup es un prototipo HTML que permite simular tareas con estilo de IU seleccionado. Muy útil para compartir con stakeholders
+*(En progreso — prototipo interactivo en Figma con las pantallas principales: Home, Carta, Customizar hamburguesa y Reservar mesa, conectadas con transiciones simuladas. Se enlazará al completarse.)*
+
+
+### 3.e Briefing
+
+*(Pendiente — descripción del proceso de diseño, herramientas IA utilizadas y su efectividad, conclusiones del equipo sobre la práctica.)*
 
 
 <br>
